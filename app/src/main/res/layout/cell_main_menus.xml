@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone">
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="105dp"
+        android:layout_height="115dp"
+        android:background="@drawable/rounded_corner_box"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/margin_h3"
+        android:layout_marginTop="@dimen/margin_15">
+
+        <ImageView
+            android:id="@+id/img_menu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_action_all" />
+
+        <TextView
+            android:id="@+id/txt_menu_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_h2"
+            android:text="@string/site_verification"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_size_h3"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/txt_notify"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/circle"
+        android:gravity="center"
+        android:text="14"
+        android:textColor="@color/colorWhite"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="5dp"
+        android:textSize="@dimen/text_size_h1"/>
+
+    <ImageView
+        android:id="@+id/img_down_arrow"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_action_down_arrow"
+        android:layout_below="@+id/linear_layout"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="-15dp"/>
+
+</RelativeLayout>

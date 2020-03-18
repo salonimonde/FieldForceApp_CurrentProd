@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_marker"
+        android:icon="@drawable/ic_action_location_pin"
+        android:title="action_marker"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@drawable/ic_action_filter"
+        android:padding="0dp"
+        android:title="action_filter"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        android:padding="0dp"
+        android:title="action_search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_notification"
+        android:icon="@drawable/ic_action_notification"
+        android:title="action_notification"
+        android:visible="false"
+        app:showAsAction="always" />
+
+
+</menu>

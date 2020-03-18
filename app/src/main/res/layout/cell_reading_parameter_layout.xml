@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/edt_reading"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/custom_edit_text"
+        android:hint="@string/enter_remark"
+        android:digits="abcdefghijklmnopqrstuvwxyz ABCDCDEFGHIJKLMNOPQRSTUVWXYZ 12324567890"
+        android:inputType="textVisiblePassword"
+        android:paddingLeft="@dimen/margin_h2"
+        android:textColor="@color/colorTextBlack"
+        android:textSize="@dimen/text_size_h4"
+        android:layout_marginTop="@dimen/margin_h2"
+        android:imeOptions="actionDone"/>
+
+</RelativeLayout>

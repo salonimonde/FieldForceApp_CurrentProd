@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.fieldforce">
+    <!-- General permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Dangerous Permission STORAGE category -->
+    <uses-permission
+        android:name="android.permission.CLEAR_APP_CACHE"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" /> <!-- Required to show current location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+
+    <application
+        android:name=".utility.App"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="stateVisible|adjustResize"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:launchMode="singleTop">
+
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+
+
+
+        <service android:name=".services.JobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <service
+            android:name=".services.Service"
+            android:clearTaskOnLaunch="true"
+            android:enabled="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            />
+
+
+        <receiver
+            android:name=".services.RestartServiceBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:label="StartMyServiceAtBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+                <action android:name="uk.ac.shef.oak.activity_recognition.sensor_service.RestartSensor"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+
+
+        <!-- @string/google_maps_key -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAOpJlsnHENt0tQ5RVIjrJJniOPYM2iYxw" /> <!-- //AIzaSyAqLka6lwaUjD4yRLZdNzJeCrFG-LVCsao -->
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="022186b0a98af053d9f09ffea01f003d206002ef"
+            />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="sendotp.key"
+            android:value="278666Ai1a1KYPH5ced0fca" />
+        <activity
+            android:name=".ui.activities.LocationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleDialog" >
+
+        </activity>
+        <activity android:name=".ui.activities.MJCFormActivity"
+            android:screenOrientation="portrait"></activity> <!-- [START fcm_receiver] -->
+        <service android:name=".services.MyFireBaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".services.FireBaseIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service> <!-- [END fcm_receiver] -->
+        <!-- Code for image Nougat -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.fieldforce.file"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+
+        <provider
+            android:name=".db.DatabaseProvider"
+            android:authorities="com.fieldforce" />
+
+        <activity
+            android:name=".ui.activities.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activities.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.SearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.NotificationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.DetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.DetailsActivity2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.RegistrationFormActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

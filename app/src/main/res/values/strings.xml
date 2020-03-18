@@ -1,0 +1,773 @@
+<resources>
+    <string name="app_name">Field Force</string>
+    <string name="title_activity_landing">LandingActivity</string>
+
+    <!--<string name="google_maps_key">AIzaSyBtoaISa9Vgovv43lhODc0RqGbrMHXutvg</string>-->
+    <string name="google_maps_key">MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCduhDXL400thMPvMdhBX6oW8+L95Rip7nzDeP9QAiDePNUYchis7gf8YILZryjx5hTdIhpfZsDj2AzlSCca/yygTxh0nG5yEwQ47JfooirdpL0KyXEf/C6b8796MuYq+ahDb4zZa9SBnQN1YRD6hJoHVILh2hsZG6KncS9abUr0v5LGhR2Pqf5UThuLrBDuCgWFEVsVhjOzod3JVvfhXRA2nOYhDDKwMWEdc7Aft566HddeKsegPMTiQ+QdX1beu+akFl9qRhOiARiteFpi17DN63OA/yFQkPV12OumTD8fR5I2GNo5bdSjflUZUi4uGBRsUV6c5VxqbHm3i/VrpnXAgMBAAECggEAAe77yxEew2x1k8LPrhiZv3yb11TQpKj26ZjcMgjGUfF6O8Jhgq9xuWQfh2Sm0vP2bq3fojnTXA02gH6UG/bJVHLeVG12mwo7WUja5FTWWHiN2Qc4x+dKaMhIGreI3DVEELaRBCMVLbjW7iuvTgA6yFX1R7jmoDWKLJIK85UUW6/BV9taABKSZphzZhiHZ6jvxfbgQmiWDu2tBPHf+KLpj2aVmFsvl4WHEXohY3nJyDXGmn3cysANgMUwsv4e6szFbG9QUAe7cTgKJ1laQIJRRvnr2d5BvU7/oSbfydDY7fuX64ig3Z7BOOwQfkv+BwW2G/LF6qVAsgzmfsJ/6TfD0QKBgQDJNOCamFBNObMLSqpvQ31MEw4ikDu6srYh6Cw2BhAHZIdoyCVjVpHoWI7OS/9LF0Cf7sms8kW3aUHqh9mAP3nuKDaNzCZjuM2p/VecZSeL7ylZf3d4mkakaZruih6hH2mAxVFm+ZEJrTptxUUa7m5qnbNHxVC98/Xz9yU9BuPgDwKBgQDIrf9F64OmBeULgbs4Vli84TtXqg+jyv0zdfYdl8qBN8sb+d0xqmDlAjlRpOBMVPKXbUKwvOHeKso2oNoW8eoekalo/qwbNFLdni5H/id59cTnlpeaCv6jQylbn0YAt+Ig8k4TfUfrP1UBiLm5/Vr/TqL3EuQ2/Ph1lazA7yRhuQKBgDDnakQJC1OJ16vB7ST3+WdZJlFeTzY0o7IgFUbYOGMjmwnrw7KeYv5fL+6SaC2fLDTzPA+OH0XSDpRrioDybLdnDMNwQFBypYJQsk+wAmmvqpQ3OBmXHd5uUJrz9TfiQ6lpzDxEIm2Arjfp/77o/utpAx9JpTNWLYyroGBx4UcfAoGAXrEbnxZ+TDzD0yYn/XFg9d8hbUAlmRgTWdDzjQsu1sJI6K6CHQlUJzthaJDv9ZSv05wOt+6odXijahuETQdhfYMl+RESjNOntkMJe5cFcZryioSYjGtbtBXg0gbZtUUPQpSTGscmxG5h4hNt78EIyyeD5inX3cqIQpOZrIArHqECgYBo/L/2g6cFX5/G9xzpLn24QT2u/QWnH9ihrDpeA6u0fnHeMGS9HT0+GieA3zm/2QRQ+GpKop8hnv4lZMBt2rJnWzNNiWuc2ib31tU0ge7va3wsKPXhaZY9zUrxifax6keOnjg2KOwAlJ8aXkRFHIM8F0ZX+Wx91p82fcg8A/fpSw==</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="nsc">New Connection</string>
+    <string name="decommissioning">Decommissioning</string>
+    <string name="reconnection">Reconnection</string>
+    <string name="disconnection">Disconnection</string>
+    <string name="search">Search</string>
+    <string name="meter_change">Meter Change</string>
+    <string name="feeder_inspection">Inspection</string>
+    <string name="maintenance">Maintenance</string>
+    <string name="monitoring">Monitoring</string>
+    <string name="login">Login</string>
+    <string name="id">ID</string>
+    <string name="password">Password</string>
+    <string name="title">Title</string>
+    <string name="sub_title">Sub-Title</string>
+    <string name="completed">Completed</string>
+    <string name="history">History</string>
+    <string name="commissioning">Commissioning</string>
+    <string name="total">Total</string>
+    <string name="open">Open</string>
+    <string name="revisit">Revisit</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="search_result">Result Not Found</string>
+    <string name="remaining">Remaining</string>
+    <string name="consumer_name">Consumer Name</string>
+    <string name="asset_id">Asset Id</string>
+    <string name="acc_no">Account No</string>
+    <string name="dummy_text">Dummy Text</string>
+    <string name="full_name">Full Name</string>
+    <string name="asset_name">Asset Name</string>
+    <string name="job_name">Job Name</string>
+    <string name="job_id">Job Id</string>
+    <string name="breakdown_type">BreakDown Type</string>
+    <string name="area">Area *</string>
+    <string name="maintenance_type">Maintenance Type</string>
+    <string name="category">Category</string>
+    <string name="location">Location *</string>
+    <string name="parameter">Parameter</string>
+    <string name="sub_category">Sub Category</string>
+    <string name="checking_parameters">Checking Parameters</string>
+    <string name="make_no">Make No.</string>
+    <string name="exit">Exit</string>
+    <string name="consumer_no">Consumer Number</string>
+    <string name="meter_id">Meter Id</string>
+    <string name="alert_dialog_exit">Are you want to close Application?</string>
+    <string name="alert_dialog_accept">Do you want to Accept Job?</string>
+    <string name="accept">Accept</string>
+    <string name="txt_reject">Reject</string>
+    <string name="txt_pick_add">PickUp Address</string>
+    <string name="material_list">Material List</string>
+    <string name="material_name">Material Name</string>
+    <string name="count">Count</string>
+    <string name="alert_dialog_return">Are you Returning Material Today? </string>
+    <string name="return_msg">Please select returning date!  </string>
+    <string name="do_you_want_to_logged_out_now">Do You Want to\nLogged Out Now ?</string>
+    <string name="do_you_want_to_close_exit_app_now">Do You Want to\nClose/Exit App Now ?</string>
+
+    <string name="search_criteria1">You can search using Asset Name or ID</string>
+    <string name="search_criteria2">You can search using Job Name or ID</string>
+    <string name="search_criteria3">You can search using Asset Name or \n Maintenance type</string>
+    <string name="search_criteria4">You can search using Meter NO.</string>
+    <string name="search_criteria5">You can search using Consumer Name or Request ID</string>
+    <string name="search_criteria6">You can search using Complaint Type or Complaint No</string>
+    <string name="search_criteria7">You can search using Service Type or Service No</string>
+    <string name="asset_image_after_main">Image After Maintenance</string>
+    <string name="job_image">Job Image</string>
+    <string name="asset_image">Asset Image</string>
+    <string name="prv_asset_image">Image Before Maintenance</string>
+    <string name="reading_params">Reading Parameters</string>
+    <string name="enter_reading">Enter Reading</string>
+    <string name="value">Value</string>
+    <string name="units">Units</string>
+    <string name="date">Date</string>
+    <string name="total_assign">Total Assigned</string>
+    <string name="install_add">Installation Address</string>
+    <string name="fault_image">Fault Image</string>
+
+    <string name="my_profile">My Profile</string>
+    <string name="city">City</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="select_language">Select Language</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="submit">Submit</string>
+    <string name="complete">Complete</string>
+
+    <string name="preventive">Preventive</string>
+    <string name="breakdown">Breakdown</string>
+    <string name="asset_indexing">Asset\nIndexing</string>
+    <string name="enquiry">Enquiry</string>
+    <string name="services">Services</string>
+    <string name="complaint">Complaints</string>
+    <string name="installation">Installation</string>
+    <string name="convert">Convert</string>
+    <string name="recovery">Recovery</string>
+    <string name="site_verification">Site\nVerification</string>
+    <string name="verification">Site Verification</string>
+    <string name="ok">Ok</string>
+    <string name="get_inspection_form">Get Inspection Form</string>
+    <string name="inspection_form">Inspection Form</string>
+    <string name="notification">Notification</string>
+    <string name="type">Type</string>
+    <string name="verify">Verify</string>
+    <string name="binder">Binder</string>
+    <string name="meter_no">Meter Number *</string>
+    <string name="meter_number">Meter Number</string>
+    <string name="meter_type">Meter Type *</string>
+    <string name="inspection_type">Inspection Type</string>
+    <string name="monitoring_type">Monitoring Type</string>
+    <string name="complaint_type">Complaint Type</string>
+    <string name="completed_date">Completed Date</string>
+    <string name="assigned_date">Assigned Date</string>
+    <string name="supply_type">Supply Type</string>
+    <string name="request_id">Request Id</string>
+    <string name="main_activity">Main Activity</string>
+    <string name="login_activity">Login Activity</string>
+    <string name="registration_form_activity">RegistrationFormActivity</string>
+
+    <string name="dummy_user_name">Bynry Technologies</string>
+    <string name="dummy_asset_id">123456789</string>
+    <string name="dummy_meter_number">987654321</string>
+    <string name="dummy_area">Kothrud Depot Pune</string>
+    <string name="dummy_complaint_type">Transformer Burnt</string>
+    <string name="dummy_asset_name">Transformer</string>
+    <string name="dummy_start_date">23/09/2017</string>
+    <string name="dummy_assignment_date">25/10/2018</string>
+    <string name="dummy_completed_date">28/02/2019</string>
+    <string name="dummy_binder">2707</string>
+    <string name="dummy_complaint_type2">Meter Burnt</string>
+    <string name="dummy_account_no">ABC0005</string>
+    <string name="dummy_meter_type">Analog/Digital</string>
+    <string name="dummy_inspection_type">Transformer Damage</string>
+    <string name="dummy_breakdown_type">BreakDown</string>
+
+    <string name="select_profile_photo">Select Profile Photo</string>
+    <string name="gallery">Gallery</string>
+    <string name="remove">Remove</string>
+    <string name="profile_image">profile_image</string>
+
+    <string name="result">result</string>
+    <string name="success">success</string>
+    <string name="file_photo">file</string>
+    <string name="file_sign">signature_file</string>
+    <string name="filePrev">filePrev</string>
+    <string name="asset_id_upload">image_id</string>
+
+    <!--Text on AssetDetailsActivity Starts-->
+    <string name="asset_details">Asset Details</string>
+    <string name="reading_parameters">Reading Parameters</string>
+    <string name="select_sub_division">Select Sub-Division</string>
+    <string name="select_area">Select Area*</string>
+    <string name="select_ward">Select Ward*</string>
+    <string name="select_location">Select Location</string>
+    <string name="select_landmark">Select Landmark</string>
+    <string name="address">Address</string>
+    <string name="enter_asset_address">Enter Asset Address</string>
+    <string name="gps_network_not_enabled">GPS Network not <b>Enabled</b></string>
+    <string name="open_location_settings">Open Location Settings</string>
+    <string name="Cancel">Cancel</string>
+    <string name="please_provide_asset_image">Please provide Asset Image</string>
+
+    <!--Api related keys Starts-->
+    <string name="job_card_id">jc_id</string>
+    <string name="sub_division_id">sub_division_id</string>
+    <string name="area_id">area_id</string>
+    <string name="asset_indexing_id_upload">asset_id</string>
+    <string name="sub_division_upload">sub_division</string>
+    <string name="area_id_upload">area</string>
+    <string name="location_id_upload">location</string>
+    <string name="make_upload">make</string>
+    <string name="make_no_upload">make_no</string>
+    <string name="address_upload">address</string>
+    <string name="latitude_upload">latitude</string>
+    <string name="longitude_upload">longitude</string>
+    <!--Api related keys Ends-->
+    <!--Text on AssetDetailsActivity Ends-->
+
+    <!--Search Activity Screen Starts-->
+    <string name="consumer_info_not_assigned_to_you">Consumer info not Assigned to you!</string>
+    <string name="reading_not_taken_yet">Reading not taken yet!</string>
+    <string name="no_data_available">No data Available!</string>
+
+    <string name="no_asset_found">No Asset Found</string>
+    <string name="record_found">Record Found</string>
+    <string name="records_found">Records Found</string>
+    <string name="search_text_criteria">You can search by <b>Asset Name, Make Number</b> with at least <b>1</b> character</string>
+    <!--Search Activity Screen Ends-->
+
+    <string name="site_verification_heading">Site Verification</string>
+    <string name="meter_install_heading">Meter Installation</string>
+    <string name="conversion_heading">Conversion</string>
+
+    <!--All Errors related messages starts-->
+    <string name="api_fail_message">Something went wrong. Please try again later</string>
+    <string name="error_internet_not_connected">Please Check Your Internet Connection</string>
+    <string name="error_you_have_not_picked_image">You haven\'t picked Image</string>
+    <string name="error_you_have_not_picked_setup_image">You haven\'t picked Setup Image</string>
+    <string name="password_should_have_at_least_characters">Password should have at least 6 characters</string>
+    <string name="please_enter_password">Please enter Password</string>
+    <string name="please_enter_user_id">Please enter UserId</string>
+    <string name="error_checking_parameters">Please Check Asset Parameters</string>
+    <string name="error_reading_parameters">Please enter Reading Parameters</string>
+    <string name="error_download_data">Please Update Your Data </string>
+    <string name="this_device_is_not_support_gps">This device is not support GPS</string>
+    <string name="no_job_card_assign_to_you">No Job Cards Assigned to you!</string>
+    <string name="select_work_order_details_followed">Select work order details followed</string>
+
+    <string name="enter_meter_number">Enter Meter Number</string>
+    <string name="select_meter_digits">Select Meter Digits</string>
+    <string name="select_meter_make">Select Meter Make</string>
+    <string name="select_meter_type">Select Meter Type</string>
+    <string name="enter_regulator_number">Enter Regulator Number</string>
+    <string name="enter_pipe_length">Enter Pipe Length</string>
+    <string name="enter_po_number">Enter PO Number</string>
+    <string name="enter_free_pipe_length">Enter Free Pipe Length</string>
+    <string name="enter_extra_charges">Enter Extra Charges</string>
+    <string name="enter_pressure_guage">Enter Pressure Guage</string>
+    <string name="pressure_guage">Pressure Guage*</string>
+
+    <string name="enter_other_meter_make">Enter Other Meter Make</string>
+    <string name="enter_proper_free_pipe_length">Enter Proper Free Pipe Length</string>
+
+    <!--  Strings for Complaint-->
+    <string name="complaint_id">Complaint Id </string>
+    <string name="complaint_no">Complaint No</string>
+
+    <string name="contact_no">Contact No</string>
+
+    <!--Api keys-->
+    <string name="user_id">userId</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <!--Strings for user type-->
+    <string name="dma_vendor">DMA_VENDOR</string>
+    <string name="project_vendor">PROJECT_VENDOR</string>
+
+    <!-- error strings-->
+    <string name="er_please_contact_server_admin">Your username and phone id does not match, Please contact admin.</string>
+    <string name="title_activity_inspection_comp_service">InspectionCompServiceActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="title_all">ALL</string>
+    <string name="title_open">OPEN</string>
+    <string name="title_completed">COMPLETED</string>
+    <string name="title_download">DOWNLOAD</string>
+    <string name="title_history">HISTORY</string>
+
+
+    <string name="title_general_info">GENERAL INFO</string>
+    <string name="title_address_info">ADDRESS INFO</string>
+
+    <string name="select_parameters">Select Parameters</string>
+    <string name="work_order_details">Work Order Details</string>
+    <string name="follow_steps">Follow Steps</string>
+    <string name="step">Step</string>
+    <string name="step_details">Step Details</string>
+    <string name="view_instructions">View Instructions</string>
+    <string name="other_details">Other Details</string>
+    <string name="enter_remark">Enter Remark*</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="select_steps">Select Steps</string>
+    <string name="enter_fields">Enter Fields</string>
+    <string name="other_parameters">Other Parameters</string>
+    <string name="add_signature">Add Signature</string>
+    <string name="add_tpi_signature">TPI Signature</string>
+    <string name="installation_tentative_date">Installation Tentative Date *</string>
+    <string name="conversion_tentative_date">Conversion Tentative Date *</string>
+    <string name="rfc_remark">RFC Remark</string>
+    <string name="regulator_number">Regulator Number *</string>
+    <string name="regulator_no">Regulator Number</string>
+    <string name="pipe_length">Pipe Length *</string>
+    <string name="rfc_verified">RFC Verified *</string>
+
+    <string name="acceptance">Acceptance</string>
+    <string name="accepted">Accepted</string>
+    <string name="work">Work</string>
+    <string name="fs">FS</string>
+
+    <string name="expected_delivery_date">Expected Delivery Date:&#160;</string>
+    <string name="name">Name</string>
+    <string name="number">Number</string>
+    <string name="job_description">JOB DESCRIPTION</string>
+    <string name="more">MORE</string>
+    <string name="work_name">Work Name</string>
+    <string name="reject">Reject</string>
+    <string name="open_task">Open Tasks</string>
+    <string name="completed_task">Completed Tasks</string>
+    <string name="there_are_no_jobs_available_now">There are no Jobs \n Available Now</string>
+
+    <string name="your_profile">Your Profile</string>
+
+    <string name="gender">Gender</string>
+    <string name="age">Age</string>
+    <string name="post">Post</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="sign_in">Sign In</string>
+
+
+    <string name="bgl">BGL</string>
+
+    <string name="general_information">General Infromation</string>
+    <string name="step_1_4">STEP 1:5</string>
+    <string name="step_2_4">STEP 2:5</string>
+    <string name="step_3_4">STEP 3:5</string>
+    <string name="step_4_4">STEP 4:5</string>
+    <string name="step_5_4">STEP 5:5</string>
+    <string name="applicant_company_name">Applicant/Company Name *</string>
+    <string name="mobile_number_mandatory">Mobile Number *</string>
+    <string name="aadhar_number_mandatory">Aadhar Number</string>
+    <string name="email_id">Email Id</string>
+    <string name="others_mandatory">Others *</string>
+    <string name="address_information">Address Information</string>
+    <string name="payment_information">Payment Information</string>
+    <string name="flat_no_house_no_building_no">Flat/House/Plot Number *</string>
+    <string name="upload_document">Upload Document</string>
+    <string name="id_proof">ID Proof</string>
+    <string name="image_1">IMAGE 01</string>
+    <string name="image_2">IMAGE 02</string>
+    <string name="address_proof">Address Proof</string>
+    <string name="amount_payable">Amount Payable</string>
+    <string name="cheque_number">Cheque Number</string>
+    <string name="branch">Branch</string>
+    <string name="rs">Rs</string>
+    <string name="meter_digits">Meter Digits *</string>
+    <string name="meter_make">Meter Make *</string>
+    <string name="you_can_search_using_consumer_name">You can search using <B>Consumer Name</B></string>
+    <string name="noc_proof">NOC Proof</string>
+
+    <string name="comefrom">commingFrom</string>
+    <string name="nsc_id">NSC_id</string>
+    <string name="registration_form">New Connection Form</string>
+    <string name="edit_nsc">Edit_NSC</string>
+    <string name="rejected_nsc">Rejected_NSC</string>
+    <string name="close">Close</string>
+
+    <string name="select_service_requested">Select Service Requested *</string>
+    <string name="new_connection_permanent">New-Connection (Permanent)</string>
+    <string name="new_connection_temporary">New-Connection (Temporary)</string>
+
+    <string name="single_phase">Single Phase</string>
+    <string name="three_phase">Three Phase</string>
+    <string name="ht_supply">Ht Supply</string>
+
+    <string name="select_occupation">Select Occupation *</string>
+    <string name="profession_business">Profession/Business</string>
+    <string name="Others">Others</string>
+
+    <string name="select_premises">Select Premises *</string>
+    <string name="owned">OWNED</string>
+    <string name="rented">RENTED</string>
+    <string name="lease">Lease</string>
+    <string name="lis_others">LIS/Others</string>
+
+    <string name="select_payment_type">Select Payment Method *</string>
+    <string name="cash">Cash</string>
+    <string name="cheque">Cheque</string>
+    <string name="dd">DD</string>
+
+    <string name="nsc_service_added_successfully_with_us">Your NSC Request\nhas been Added\nSuccessfully with NSC ID :</string>
+    <string name="nsc_service_edited_successfully_with_us">Your NSC Request\nhas been Edited\nSuccessfully with NSC ID :</string>
+
+    <string name="error_selected_id">Selected Id proof document and Image count does not match</string>
+    <string name="error_id_nsc_image">Please Capture at least one Image of Id Proof</string>
+    <string name="error_id_nsc">Please Select at least one Id document</string>
+    <string name="error_selected_add">Selected Address proof document and Image count does not match</string>
+    <string name="error_add_nsc_image">Please Capture at least one Image of Add Proof</string>
+    <string name="error_add_nsc">Please Select at least one address document</string>
+
+    <string name="error_select_premises">Please Select Permise </string>
+    <string name="error_select_pincode">Please Select Pincode</string>
+    <string name="error_select_state">Please Select State</string>
+    <string name="error_select_city">Please Select City</string>
+    <string name="error_valid_address">Please enter valid Address</string>
+    <string name="error_valid_building_no">Please enter valid Flat No/ House No</string>
+    <string name="error_valid_society_building_name">Please enter valid Building Name</string>
+    <string name="error_valid_location">Please enter valid Location</string>
+    <string name="error_valid_area">Please enter valid Area</string>
+    <string name="error_valid_description">Please enter Description</string>
+    <string name="error_valid_occupation">Please select Occupation</string>
+    <string name="error_valid_aadhaar_no">Please enter valid Aadhaar Number</string>
+    <string name="error_valid_email_id">Please enter valid Email Id</string>
+    <string name="error_valid_mobile_no">Please  enter valid Mobile Number</string>
+    <string name="error_valid_consumer_name">Please enter valid Consumer Name</string>
+    <string name="error_valid_consumer_category">Please Select Category</string>
+    <string name="error_valid_consumer_sub_category">Please Select Sub-Category</string>
+    <string name="aadhar_no_already_exists">Aadhar Number Already Exists</string>
+    <string name="error_valid_road_no_street_name">Please enter valid Road No / Street Name</string>
+    <string name="error_valid_landmark">Please enter valid Landmark</string>
+
+    <string name="edit_id_proof">EDITIDProof</string>
+    <string name="edit_add_proof">EDITAddProof</string>
+
+    <string name="select_payment_scheme_mandatory">Select Payment Scheme *</string>
+    <string name="select_pin_code">Select Pin Code *</string>
+    <string name="select_state">Select State *</string>
+    <string name="select_city">Select City *</string>
+    <string name="select_consumer_category">Select Consumer Category *</string>
+    <string name="select_consumer_sub_category">Select Consumer Sub-Category *</string>
+    <string name="select_payment_scheme">Select Payment Scheme</string>
+    <string name="select_payment_method">Select Payment Method</string>
+    <string name="enter_cheque_number">Enter Cheque Number</string>
+    <string name="enter_valid_cheque_no">Enter Valid Cheque Number</string>
+    <string name="enter_valid_dd_no">Enter Valid DD Number</string>
+    <string name="enter_valid_micr_code">Enter Valid MICR Code</string>
+    <string name="select_module_name">Select Module Name</string>
+    <string name="select_tentative_date">Select Tentative Date</string>
+    <string name="gas_started">Gas Started</string>
+    <string name="upload">Upload</string>
+    <string name="back">Back</string>
+    <string name="clear">Clear</string>
+    <string name="society_building_name">Society/Building Name *</string>
+
+    <string name="enter_cheque_branch">Enter Branch</string>
+    <string name="enter_cheque_date">Enter Date</string>
+    <string name="enter_dd_number">Enter DD Number</string>
+    <string name="please_specify_other_bank_name">Please Specify Other Bank Name</string>
+
+    <string name="select_bank">Select Bank</string>
+    <string name="please_select_bank">Please Select Bank</string>
+    <string name="others">Others</string>
+
+    <string name="please_enter_remark_for_rejection">Please Enter Remark For Rejection</string>
+    <string name="please_enter_remark">Please Enter Remark</string>
+    <string name="please_enter_dd_number">Please Enter DD Number</string>
+
+    <string-array name="service_requested">
+        <item>@string/select_service_requested</item>
+        <item>@string/new_connection_permanent</item>
+        <item>@string/new_connection_temporary</item>
+    </string-array>
+
+    <string-array name="supply">
+        <item>Select Supply Type *</item>
+        <item>@string/single_phase</item>
+        <item>@string/three_phase</item>
+        <item>@string/ht_supply</item>
+    </string-array>
+
+    <string-array name="occupation">
+        <item>@string/select_occupation</item>
+        <item>@string/services</item>
+        <item>@string/profession_business</item>
+        <item>@string/Others</item>
+    </string-array>
+
+    <string-array name="premises">
+        <item>@string/select_premises</item>
+        <item>@string/owned</item>
+        <item>@string/rented</item>
+    </string-array>
+
+    <string-array name="payment_type">
+        <item>@string/select_payment_type</item>
+        <!--<item>@string/cash</item>-->
+        <item>@string/cheque</item>
+        <item>@string/dd</item>
+
+    </string-array>
+
+    <string-array name="meter_digits">
+        <item>@string/meter_digits</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="meter_type">
+        <item>@string/meter_type</item>
+        <item>Smart</item>
+        <item>Mechanical</item>
+    </string-array>
+
+
+    <string name="this_device_is_not_supported">This device is not supported</string>
+    <string name="location_settings_unavailable_please_change_manually">Location settings unavailable, Please change manually</string>
+
+    <string name="dd_no">DD Number</string>
+    <string name="bank_name">Bank Name</string>
+
+    <string name="network_unavailable">Network Unavailable</string>
+    <string name="connectivity_issue">Connectivity Issue</string>
+    <string name="customer_not_ready">Customer Not Ready</string>
+    <string name="customer_not_allowing">Customer Not Allowing</string>
+    <string name="under_construction">Under Construction</string>
+    <string name="technically_not_possible">Technically Not Possible</string>
+    <string name="society_not_allowing">Society Not Allowing</string>
+
+    <string name="next_date">Next Date</string>
+    <string name="time_required_for_network">Time Required For Network</string>
+
+    <string name="please_select_reason_for_rejection">Please Select Reason For Rejection</string>
+    <string name="dd_number">DD Number</string>
+    <string name="enter_bank_name">Enter Bank Name*</string>
+    <string name="enter_initial_reading">Enter Initial Reading*</string>
+    <string name="please_enter_initial_reading">Please Enter Initial Reading</string>
+    <string name="please_enter_actual_fault">Please Enter Actual Fault</string>
+    <string name="upload_setup_photo">Setup Photo</string>
+    <string name="reason_for_rejection">Reason For Rejection*</string>
+    <string name="meter_warranty_po_number">Meter Warranty PO Number*</string>
+    <string name="free_pipe_length">Free Pipe Length*</string>
+    <string name="extra_charges">Extra Charges*</string>
+    <string name="other_meter_make">Other Meter Make*</string>
+
+    <string name="please_capture_image_of_noc_certificate">Please Capture Image of NOC Certificate</string>
+    <string name="installation_details">Installation Details</string>
+    <string name="installed_on">Installed On</string>
+    <string name="rfc_verified_on">RFC Verified On</string>
+
+    <string-array name="rejection_reason">
+        <item>@string/please_select_reason_for_rejection</item>
+        <item>@string/network_unavailable</item>
+        <item>@string/connectivity_issue</item>
+        <item>@string/customer_not_ready</item>
+        <item>@string/customer_not_allowing</item>
+        <item>@string/under_construction</item>
+        <item>@string/technically_not_possible</item>
+        <item>@string/society_not_allowing</item>
+    </string-array>
+
+
+    <string name="page1">Page 1</string>
+    <string name="bjl">BHAGYANAGAR GAS LIMITED</string>
+    <string name="meter_job_form_cum_receipt">METER JOB FORM CUM RECEIPT</string>
+    <string name="consumer_date">Date : </string>
+    <string name="consumer_city">City : </string>
+    <string name="mjcno">MJC No : </string>
+    <string name="consumer_title">Title : </string>
+    <string name="reg_form_no">Reg.From No : </string>
+    <string name="first_name">First Name : </string>
+    <string name="middle_name">Middle Name : </string>
+    <string name="surname">Surname : </string>
+    <string name="father_husband_name">Father/Husband\'s Name : </string>
+    <string name="flat_no">Flat No : </string>
+    <string name="wing">Wing : </string>
+    <string name="floor">Floor : </string>
+    <string name="plot_no">Plot No : </string>
+    <string name="colony">Colony : </string>
+    <string name="pin">Pin : </string>
+    <string name="consumer_location">Location : </string>
+    <string name="road_name">Road Name : </string>
+    <string name="mobile_num">Mobile Number : </string>
+    <string name="tel_r">Tel(R) : </string>
+    <string name="tel_o">Tel(O) : </string>
+    <string name="email">Email ID : </string>
+    <string name="meter_job_card">Meter Job Card  </string>
+    <string name="crn_no">CRN No : </string>
+    <string name="meter_installation_and_conversion">Meter Installation And Conversion Details </string>
+    <string name="meter_installation_date">Meter Installation Date : </string>
+    <string name="meter_num">Meter Number : </string>
+    <string name="test_date">Test Date : </string>
+    <string name="test_pressure">Test Pressure : </string>
+    <string name="test_duration">Test Duration : </string>
+    <string name="initial_reading">Initial Reading : </string>
+    <string name="conversion_date">Conversion Date : </string>
+    <string name="project_area_code">Project Area Code : </string>
+    <string name="beat_no">Beat No : </string>
+    <string name="loop_no">Loop No : </string>
+    <string name="contractor_name">Contractor\'s Name : </string>
+    <string name="building_name">Building Name :</string>
+    <string name="customer_satisfaction_certificate_and_checklist_details">Customer
+        Satisfaction Certificate And Check List Details
+        </string>
+    <string name="page2">Page 2</string>
+    <string name="page3">Page 3</string>
+    <string name="page4">Page 4</string>
+    <string name="page5">Page 5</string>
+    <string name="checklist">Check List</string>
+    <string name="sr_no">Sr. No</string>
+    <string name="sr_no1">1</string>
+    <string name="sr_no2">2</string>
+    <string name="sr_no3">3</string>
+    <string name="sr_no4">4</string>
+    <string name="sr_no5">5</string>
+    <string name="sr_no6">6</string>
+    <string name="sr_no7">7</string>d
+    <string name="sr_no8">8</string>d
+    <string name="description">Description</string>
+    <string name="mvc_plugged">MVC Pluged</string>
+    <string name="copper_pipe_is_installed_as_per_mcl_spec">Copper pipe is installed as per MCL spec.</string>
+    <string name="copper_pipe_is_properly_secured_in_supp_clip">Copper pipe is properly secured in supp. clip.</string>
+    <string name="copper_pipe_is_away_from_heat_source">Copper pipe is away from heat source &amp;
+        Electrical Installation as per requirement.
+    </string>
+    <string name="copper_pipe_and_meter_is_installed_in_proper_ventillated_area">
+        Copper pipe &amp; meter is intalled in proper ventillated area.</string>
+    <string name="the_installation_is_cleared_for_charging_of_gas_and_conversion_appliances">
+        The installation is cleared for charging of gas &amp; Conversion appliances</string>
+    <string name="copper_pipe_length">Copper pipe length(meter).</string>
+    <string name="m_no">Meter No.</string>
+    <string name="approved_by">Approved By :  </string>
+    <string name="issued_by">Issued By :  </string>
+    <string name="hod">HOD :  </string>
+    <string name="bgl_engineer">BGL Engineer :</string>
+    <string name="tpi_engineer_contractor">TPI-Engineer Contractor :</string>
+    <string name="contractor">Contractor :</string>
+    <string name="meter_set_meter_reg_and_meter_dis">METER SET METER,REG,AND METER DIS. UNION(2 NOS),SS BACK
+    PLACE,TRAN FITTING METER,ADAPTER,INTER-OUTPUT</string>
+    <string name="we_are_happy">We are happy to confirm that all the re-installment and gas
+    connection related work in my property has been done to the best of my satisfaction.
+        I also confirm that I have received customer handbook &amp; safety sticker.
+    </string>
+    <string name="bhagyanagar_gas_limited">BHAGYANAGAR GAS LIMITED</string>
+    <string name="page_1">Page 1</string>
+    <string name="hyderabad">Hyderabad</string>
+    <string name="previous_rejection_remark">Previous Rejection Remark :-</string>
+    <string name="meter_installation_and_conversion_details">Meter Installation and Conversion Details</string>
+    <string name="micr_code">MICR Code*</string>
+    <string name="ifsc_code">IFSC Code*</string>
+    <string name="signatures">Signatures</string>
+    <string name="tpi_signature">TPI Signature</string>
+    <string name="add_contractor_signature">Contractor Signature</string>
+    <string name="add_bgl_engineer_signature">BGL Engineer Signature</string>
+    <string name="add_customer_signature">Customer Signature</string>
+    <string name="your_data_will_not_be_saved">Your Data Will Not be Saved</string>
+    <string name="alert">Alert</string>
+
+
+    <string name="please_add_consumer_signature">Please Add Consumer Signature</string>
+    <string name="please_add_contractor_signature">Please Add Contractor Signature</string>
+    <string name="please_add_bgl_engineer_signature">Please Add BGL Engineer Signature</string>
+    <string name="mjc_for_uploaded_successfully">MJC Form Uploaded Successfully</string>
+
+    <string name="please_enter_micr_code">Please Enter MICR Code</string>
+    <string name="enter_actual_fault">Enter Actual Fault*</string>
+    <string name="this_month">Next 30 Days</string>
+    <string name="this_week">Next 7 Days</string>
+    <string name="today">Today</string>
+    <string name="filter_by">Filter By</string>
+    <string name="filter">Filter</string>
+    <string name="all">All</string>
+
+    <string name="meter_photo">Meter Photo</string>
+    <string name="site_photo">Site Photo</string>
+    <string name="installation_photo">Installation Photo</string>
+    <string name="is_nitrogen_purging_performed">Is Nitrogen Purging Performed?*</string>
+    <string name="choose_module">Choose Module</string>
+    <string name="apply">Apply</string>
+    <string name="choose_filter_type">Choose Date Filter Type</string>
+    <string name="site_verification_job_cards">Site Verification Job Cards</string>
+
+    <string-array name="filter_array">
+        <item>@string/all</item>
+        <item>@string/today</item>
+        <item>@string/this_week</item>
+        <item>@string/this_month</item>
+    </string-array>
+
+
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="new_nsc">New_NSC</string>
+    <string name="connectivity">Pipeline Available</string>
+    <string name="cheque_image">Cheque Image</string>
+    <string name="dd_image">DD Image</string>
+
+    <string name="capture_dd_image">Capture DD Image</string>
+    <string name="capture_cheque_image">Capture Cheque Image</string>
+    <string name="enter_valid_ifsc_code">Please Enter Valid IFSC Code</string>
+    <string name="enter_ifsc_code">Please Enter IFSC Code</string>
+    <string name="_6_digits">(6 digits)</string>
+    <string name="_11_characters">(11 Characters)</string>
+
+    <string name="aadhar_no_already_exists_do_you_still_want_to_continue"> Aadhar No Alreay Exists.\n Do You Still Want to Continue?
+    </string>
+
+    <string name="the_password_is_incorrect">The Password is Incorrect</string>
+    <string name="retrieve_database">Retrieve Database</string>
+
+    <string name="error_enter_OTP">Please Enter OTP</string>
+    <string name="verification_in_progress">Verification In Progress</string>
+    <string name="verification_failed">OTP is invalid. Please try again</string>
+    <string name="verified"> OTP Verified !!!</string>
+    <string name="already_verified">Your Mobile number is already verified</string>
+    <string name="verify_otp">txt_verify_otp</string>
+    <string name="otp_already_verifed">otp_already_verified</string>
+    <string name="verify_otp_fail">verify_otp_fail</string>
+    <string name="resent_otp">Resend OTP</string>
+
+
+
+
+    <string name="select_action">Select Action</string>
+    <string name="select_photo_from_gallery">Select photo from gallery</string>
+    <string name="capture_photo_from_camera">Capture photo from camera</string>
+    <string name="flat_number_house_number">Flat No/House No*</string>
+    <string name="plot_no_sector_no">Plot No/Sector No</string>
+    <string name="building_name_mandatory">Building Name*</string>
+    <string name="society_name">Society Name</string>
+    <string name="landmark">Landmark*</string>
+    <string name="district">District</string>
+    <string name="state">State*</string>
+    <string name="city_mandatory">City*</string>
+
+    <string name="please_enter_flat_no">Please Enter Flat No.</string>
+    <string name="please_enter_floor">Please Enter Floor</string>
+    <string name="please_enter_plot_no_sector_no">Please Enter Plot No./Sector No.</string>
+    <string name="please_enter_wing">Please Enter Wing</string>
+    <string name="please_enter_building_name">Please Enter Building Name</string>
+    <string name="please_enter_society_name">Please Enter Society Name</string>
+    <string name="please_enter_road_name">Please Enter Road Name</string>
+    <string name="please_enter_landmark">Please Enter Landmark</string>
+    <string name="please_enter_location">Please Enter Location</string>
+    <string name="please_enter_district">Please Enter District</string>
+    <string name="floor_no">Floor</string>
+    <string name="wing_name">Wing</string>
+
+    <string name="rejected_registrations">Rejected Registrations</string>
+    <string name="flat_no_houseno">Flat No/HouseNo*</string>
+    <string name="road_no_street_name">Road No/Street Name*</string>
+
+
+
+    <string name="consumer_consent_form">Consumer consent form</string>
+
+    <string name="select_remark">Select Remark*</string>
+
+
+
+    <string name="please_select_all_remarks">Please Select Remarks</string>
+
+
+    <string name="do_you_want_to_assign_this_to_installation">Do You Want to Assign this to Installation ?</string>
+
+    <string name="consent_form">Consent Form</string>
+
+
+    <string name="consumer_consent"> I do hereby agree &amp; confirm that (i) The scheme and offer will be at the sole discretion of
+        Bhagyanagar Gas Limited, and can be discontinued at any time without giving any prior notice.
+        (ii) Getting PNG connection is subject to permissions from local authorities &amp; technical feasibility
+        (iii) No two schemes can be clubbed together &amp; I agree to the said terms &amp; the terms which shall prevail from time to time.
+        (iv) I agree to get the installation and conversion to be completed at my given address.
+    </string>
+
+
+
+    <string name="wing_new">Wing  : </string>
+    <string name="plot_no_new">Plot No : </string>
+    <string name="floor_no_new">Floor :</string>
+    <string name="house_number">House No : </string>
+    <string name="declaration">Declaration</string>
+    <string name="declaration_form">Declaration Form</string>
+
+
+
+    <string name="username">username</string>
+    <string name="password_api">password</string>
+    <string name="imei_no">imei_no</string>
+
+    <string name="android_id">Your Android ID</string>
+
+</resources>

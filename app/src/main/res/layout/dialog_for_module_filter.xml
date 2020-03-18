@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_history_menu_bottom"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+    android:theme="@android:style/Theme.Translucent">
+
+
+
+    <RelativeLayout
+        android:id="@+id/rel_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:theme="@style/AppBottomSheetDialogTheme"
+        >
+
+        <ImageView
+            android:id="@+id/img_cross"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/margin_h6"
+            android:src="@drawable/ic_image_cancel" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/dialog_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rel_img"
+        >
+
+    </include>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/toolbar"
+        android:background="@color/colorWhite">
+
+        <LinearLayout
+            android:id="@+id/linear_spinner_module"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/txt_choose_module"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/choose_module"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/text_size_h3" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_height"
+                android:layout_marginTop="@dimen/margin_h2"
+                android:background="@drawable/custom_spinner"
+                android:orientation="vertical"
+                android:theme="@style/SpinnerWhite">
+
+                <Spinner
+                    android:id="@+id/spinner_module_filter"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spinner_height"
+                    android:layout_centerVertical="true"
+                    android:background="@color/spinnerBackColor"
+                    android:entries="@array/filter_array" />
+
+                <ImageView
+                    android:layout_width="@dimen/margin_h1"
+                    android:layout_height="@dimen/margin_h1"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_15"
+                    android:src="@drawable/ic_action_arrow_black" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linear_module_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:orientation="vertical"
+            android:padding="16dp"
+            >
+
+            <TextView
+                android:id="@+id/txt_filter_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/choose_filter_type"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/text_size_h3" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_height"
+                android:layout_marginTop="@dimen/margin_h2"
+                android:background="@drawable/custom_spinner"
+                android:orientation="vertical"
+                android:theme="@style/SpinnerWhite">
+
+                <Spinner
+                    android:id="@+id/spinner_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spinner_height"
+                    android:layout_centerVertical="true"
+                    android:background="@color/spinnerBackColor"
+                    android:entries="@array/filter_array" />
+
+                <ImageView
+                    android:layout_width="@dimen/margin_h1"
+                    android:layout_height="@dimen/margin_h1"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_15"
+                    android:src="@drawable/ic_action_arrow_black" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/spinner_height"
+            android:paddingRight="@dimen/spinner_height"
+            android:paddingBottom="16dp"
+            android:paddingTop="8dp"
+            android:weightSum="2">
+
+
+
+            <Button
+                android:id="@+id/btn_reset"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_reset"
+                android:text="Reset"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_size_h4"
+                android:textAllCaps="true"
+                />
+
+            <Button
+                android:id="@+id/btn_apply"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_apply"
+                android:text="@string/apply"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_size_h4"
+                android:layout_marginLeft="@dimen/margin_15"
+                android:textAllCaps="true"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

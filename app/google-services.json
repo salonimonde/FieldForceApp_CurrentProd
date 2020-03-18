@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "595652581341",
+    "firebase_url": "https://fieldforce-7a916.firebaseio.com",
+    "project_id": "fieldforce-7a916",
+    "storage_bucket": "fieldforce-7a916.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595652581341:android:3c040798bef1adbe",
+        "android_client_info": {
+          "package_name": "com.fieldforce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595652581341-l438ipobricsgqh6iu7gc528s5cnum1l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fieldforce",
+            "certificate_hash": "dd4fc73b6120fd4045948821e34d9d4e5870a9b6"
+          }
+        },
+        {
+          "client_id": "595652581341-d6ui3a4ik6d84mrmavn6022724a1cpqh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCePkw9R-KcJcZwDlN1R4jjE2s_L7oHtrY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "595652581341-d6ui3a4ik6d84mrmavn6022724a1cpqh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
